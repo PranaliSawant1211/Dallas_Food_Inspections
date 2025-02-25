@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>True</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>False</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="210" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Score" selected="True" />
+            <Field field="Street Number" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Street Address" selected="True" />
+            <Field field="Zip Code" selected="True" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Points - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Points - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Points - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Points - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Points - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Points - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Points - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Points - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Points - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Points - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Points - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Points - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Points - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Points - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Points - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Points - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Points - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Points - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Points - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Points - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Points - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Points - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Points - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Points - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Points - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Lat Long Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="65" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Inspection Date" size="10" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Inspection Score" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+            <Field name="Street Number" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int32" />
+            <Field name="Street Name" size="25" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Street Type" size="4" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Street Unit" size="5" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Street Address" size="36" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 1" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 1" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 1" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 1" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 2" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 2" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 2" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 3" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 3" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 3" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 4" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 4" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 4" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 5" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 5" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 5" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 6" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 6" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 6" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 7" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 7" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 7" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 8" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 8" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 8" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 9" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 9" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 9" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 10" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 10" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 10" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 11" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 11" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 11" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 12" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 12" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 12" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 13" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 13" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 13" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 14" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 14" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 14" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 15" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 15" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 15" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 16" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 16" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 16" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 17" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 17" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 17" size="212" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 18" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 18" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 19" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 19" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 20" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 20" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 21" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 21" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 22" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 22" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 22" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 23" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 23" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 24" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 24" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 25" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 25" size="254" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Inspection Year" size="6" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Lat Long Location" size="37" source="File: C:\Users\Pranali\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="VIOLATION DESCRIPTION" selected="True" size="1000" />
+            <SelectField field="FileName" selected="True" rename="DI_WorkflowFileName" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+            <FormulaField expression="FileGetFileName(&quot;C:\Users\Pranali\Downloads\DallasFoodInspections&quot;)" field="DI_WorkFlowFileName" size="49" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = FileGetFileName("C:\Users\Pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="594" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>InspectionDate_DF</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="786" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:DallasFoodInspection|||stg_DallasFoodInspection_Format</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DallasFoodInspection
+Query=stg_DallasFoodInspection_For...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Pranali\AppData\Local\Temp\Engine_29908_7b180eeb2b09ba418eda476a296e4478_\Engine_29908_b8f40063ccb1c446b8a324a18c7d9940~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection Date" selected="False" />
+            <SelectField field="InspectionDate_DF" selected="False" rename="Inspection Date" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DataPrep</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="420cae52-3857-49bd-9b45-f43632a3bcee" />
+      <Telemetry>
+        <PreviousWorkflowId value="eb27d3f5-5b24-4dc8-a823-c284086df3ed" />
+        <OriginWorkflowId value="eb27d3f5-5b24-4dc8-a823-c284086df3ed" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
